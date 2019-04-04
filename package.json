@@ -26,5 +26,9 @@
   "homepage": "https://github.com/FrediBach/FakeQL-CLI#readme",
   "bin": {
     "fakeql-cli": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "blowson": "^1.3.3"
   }
 }
