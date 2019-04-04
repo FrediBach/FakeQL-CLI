@@ -1,0 +1,30 @@
+{
+  "name": "fakeql-cli",
+  "version": "0.0.1",
+  "description": "CLI to extend and deploy a fake GraphQL API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrediBach/FakeQL-CLI.git"
+  },
+  "keywords": [
+    "api",
+    "mocking",
+    "fake",
+    "graphql",
+    "rest",
+    "fakeql"
+  ],
+  "author": "Fredi Bach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FrediBach/FakeQL-CLI/issues"
+  },
+  "homepage": "https://github.com/FrediBach/FakeQL-CLI#readme",
+  "bin": {
+    "fakeql-cli": "./index.js"
+  }
+}
