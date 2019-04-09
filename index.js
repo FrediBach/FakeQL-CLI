@@ -27,7 +27,7 @@ if (typeof parsedData !== 'object') {
     process.exit();
 } else {
     console.log('Deploying extended data ...');
-    axios.post('https://fakeql.com/api/deploy.js', parsedData)
+    axios.post('https://fakeql.com/api/deploy.js', { "source": data, "extended": parsedData })
         .then(function (response) {
             console.log('');
             console.log('Your fake GraphQL API is ready: https://fakeql.com/graphql/' + response.data.hash);
